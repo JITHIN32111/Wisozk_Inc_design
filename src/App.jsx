@@ -1,10 +1,12 @@
 import React from 'react'
-
+import Header from './components/Header'
+import Hero from './components/Hero'
 function App() {
   return (
-    <div>
-      <h1 className='text-gray-400'>hallo world</h1>
-    </div>
+    <>
+    <Header/>
+    <Hero/>
+    </>
   )
 }
 

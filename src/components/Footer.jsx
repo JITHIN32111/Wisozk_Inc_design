@@ -13,7 +13,7 @@ function Footer() {
       <img
         src={img}
         alt="Background Image"
-        className="w-full h-[450px] md:h-[300px]  object-cover"
+        className="w-full h-[500px] md:h-[300px]  object-cover"
       />
       <div className="absolute inset-14 flex flex-wrap text-center text-gray-800 ">
         <div className=" h-full  grid grid-cols-2  md:grid-cols-4   items-center mx-auto gap-x-3 text-white">

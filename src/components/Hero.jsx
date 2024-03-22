@@ -22,7 +22,7 @@ function Hero() {
           </span>
 
           <button className="flex flex-row gap-x-3 font-medium text-xl mx-auto ml-0 border rounded-full  text-white px-6 py-1 sm:py-2  mt-1 sm:mt-3 bg-gray-500 bg-opacity-40 hover:bg-opacity-100">
-            Explore more < FaCircleArrowDown className="bg-white ml-4 text-indigo-500 rounded-full text-2xl sm:text-3xl"/>
+            Explore more < FaCircleArrowDown className="bg-white ml-4 mt-1 sm:mt-0  text-indigo-500 rounded-full text-2xl sm:text-3xl"/>
           </button>       </div>
       </div>
     </div>

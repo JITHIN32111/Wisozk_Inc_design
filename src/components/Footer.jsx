@@ -21,7 +21,7 @@ function Footer() {
           <div className="flex flex-col mb-20 md:gap-y-2 gap-y-0">
             <span className="flex flex-row">
               <img src={icon} className="sm:w-20 sm:h-20 w-16 h-16 p-2" />
-              <span className="text-white mt-6 font-medium text-xl xl:text-2xl">
+              <span className="text-white mt-6 font-medium text-sm sm:text-xl xl:text-2xl">
                 Wisozk Inc
               </span>
             </span>

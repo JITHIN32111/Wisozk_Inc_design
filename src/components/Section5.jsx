@@ -1,10 +1,10 @@
 import React from 'react';
-import circleImg1 from '../../public/circle1.png';
-import circleImg2 from '../../public/circle2.png';
-import circleImg3 from '../../public/circle3.png';
-import circleImg4 from '../../public/circle4.png';
-import circleImg5 from '../../public/circle5.png';
-import img from '../../public/section5.jpg';
+import circleImg1 from '/circle1.png';
+import circleImg2 from '/circle2.png';
+import circleImg3 from '/circle3.png';
+import circleImg4 from '/circle4.png';
+import circleImg5 from '/circle5.png';
+import img from '/section5.jpg';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

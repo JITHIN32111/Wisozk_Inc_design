@@ -9,7 +9,7 @@ function Hero() {
         alt="Background Image"
         className="w-full h-[450px] sm:h-[500px] md:h-[550px] object-cover"
       />
-      <div className="absolute inset-0 flex flex-wrap justify-start items-center text-white ">
+      <div className="absolute inset-0 flex flex-wrap justify-start items-center text-white " data-aos='fade-right' data-aos-delay='200'>
         <div className="flex flex-col gap-y-3 sm:gap-y-4 md:gap-y-5 ml-12 md:ml-22 lg:ml-28 sm:ml-24">
           <span className="font-semibold text-[30px] leading-tight  md:text-[50px] lg:text-[60px]">
             We are trendy Service

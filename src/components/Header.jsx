@@ -1,5 +1,5 @@
 import React from 'react'
-import icon from '/public/icon.png'
+import icon from '/icon.png'
 function Header() {
   return (
     <div className='flex flex-row  justify-between items-center bg-blue-950'>

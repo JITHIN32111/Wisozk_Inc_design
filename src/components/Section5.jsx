@@ -61,7 +61,7 @@ function Section5() {
       />
       <div className="absolute inset-14 text-center text-gray-800">
         <div className="flex flex-col gap-y-3 sm:gap-y-4 md:gap-y-5">
-          <h1 className="text-5xl font-bold">Works Done</h1>
+          <h1 className="text-3xl sm:text-5xl font-bold">Works Done</h1>
           <div className="mt-8">
             <Slider {...sliderSettings}>
               <div>

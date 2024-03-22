@@ -13,15 +13,15 @@ function Footer() {
       <img
         src={img}
         alt="Background Image"
-        className="w-full h-[500px] md:h-[300px]  object-cover"
+        className="w-full h-[480px] md:h-[300px]  object-cover"
       />
       <div className="absolute inset-14 flex flex-wrap text-center text-gray-800 ">
-        <div className=" h-full  grid grid-cols-2  md:grid-cols-4   items-center mx-auto gap-x-3 text-white">
+        <div className=" h-full  grid grid-cols-2  md:grid-cols-4   items-center mx-auto gap-x-14 text-white">
           {/* social media */}
-          <div className="flex flex-col mb-28 sm:mb-20 gap-y-2 ">
+          <div className="flex flex-col mb-20 md:gap-y-2 gap-y-0">
             <span className="flex flex-row">
               <img src={icon} className="sm:w-20 sm:h-20 w-16 h-16 p-2" />
-              <span className="text-white mt-6 font-medium text-xl sm:text-2xl">
+              <span className="text-white mt-6 font-medium text-xl xl:text-2xl">
                 Wisozk Inc
               </span>
             </span>
@@ -34,11 +34,11 @@ function Footer() {
           </div>
           {/* social media */}
           {/* Address */}
-          <div className="flex flex-col mb-7  ml-2 items-start gap-y-0 lg:gap-y-4">
+          <div className="flex flex-col mb-7  ml-2 items-start gap-y-1 md:gap-y-2">
             <span className="text-xl  sm:text-xl">Address</span>
-            <p className="text-start text-sm md:text-base">8779 Cruickshank Crescent</p>
-            <p className="text-start text-sm md:text-base">Abelardo Streets, New York </p>
-            <p className="text-start text-sm md:text-base">U.S. of America - 10001.</p>
+            <p className="text-start text-sm lg:text-base">8779 Cruickshank Crescent</p>
+            <p className="text-start text-sm lg:text-base">Abelardo Streets, New York </p>
+            <p className="text-start text-sm lg:text-base">U.S. of America - 10001.</p>
           </div>
           {/* Address*/}
           {/* contact */}
